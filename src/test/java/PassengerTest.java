@@ -12,10 +12,6 @@ public class PassengerTest {
         passenger = new Passenger("Arek", 2);
     }
 
-    @Test
-    public void passengerHaveName(){
-        assertEquals("Arek", this.passenger.getName());
-    }
 
     @Test
     public void passengerCanHaveBags(){

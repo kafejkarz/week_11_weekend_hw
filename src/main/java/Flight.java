@@ -16,6 +16,35 @@ public class Flight{
         this.departureAirport = departureAirport;
         this.departureTime = departureTime;
         this.cabinCrewMembers = new ArrayList<>();
+        this.passengers = new ArrayList<>();
     }
 
+
+    public String getFlyNumber() {
+        return flyNumber;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public String getDepartureAirport() {
+        return departureAirport;
+    }
+
+    public String getDepartureTime() {
+        return departureTime;
+    }
+
+    public ArrayList<Passenger> getPassengers() {
+        return passengers;
+    }
+
+    public ArrayList<CabinCrewMember> getCabinCrewMembers() {
+        return cabinCrewMembers;
+    }
+
+    public void addCabinMembers(CabinCrewMember cabinCrewMember){
+        cabinCrewMembers.add(cabinCrewMember);
+    }
 }

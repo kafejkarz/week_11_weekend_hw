@@ -13,10 +13,7 @@ public class PlaneTest {
         plane = new Plane(planeType,300, 2500);
     }
 
-    @Test
-    public void typeOfPlane(){
-        assertEquals(planeType, this.plane.getPlaneType());
-    }
+
 
     @Test
     public void canHaveCapacity(){

@@ -13,11 +13,6 @@ public class PilotTest {
     }
 
     @Test
-    public void planeHaveAPilot(){
-        assertEquals(CabinCrewMemberType.CAPTAIN, this.pilot.getCabinCrewMemberType());
-    }
-
-    @Test
     public void pilotHaveName(){
         assertEquals("Olivia", this.pilot.getName());
     }
